@@ -1,6 +1,7 @@
 streamlit
 pandas
 openpyxl
+pillow
 requests
 rembg
-Pillow
+onnxruntime
