@@ -1,0 +1,6 @@
+streamlit
+pandas
+openpyxl
+requests
+rembg
+Pillow
