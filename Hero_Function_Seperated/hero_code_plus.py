@@ -159,7 +159,7 @@ def has_transparency(img_bytes):
 st.set_page_config(layout="wide")
 st.title("🧾 HERO CODE PLUS: PID Formatter + Image Filler")
 st.markdown("""
-Required Columns: ** 
+Required Columns:
 'Category | Campaign Name | Asset Detail | Focus Category/Grid | PID1 | Name1 | PID2 | Name2'
 
 """, unsafe_allow_html=True)
