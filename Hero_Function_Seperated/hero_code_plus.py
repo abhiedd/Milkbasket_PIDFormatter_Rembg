@@ -159,10 +159,7 @@ def has_transparency(img_bytes):
 st.set_page_config(layout="wide")
 st.title("🧾 HERO CODE PLUS: PID Formatter + Image Filler")
 st.markdown("""
-- **Step 1:** Upload your main campaign CSV or Google Sheet.
-- **Step 2:** (Optional) Upload product dump with `MB_id` and `image_src` columns.
-- **Step 3:** In All_PIDs tab, use Collect/Download/Remove BG buttons in order.
-- Images exported as .png, filenames from `image_src`, resized to 650x650px.
+- ** Required Columns: Category | Campaign Name | Asset Detail | Focus Category/Grid | PID1 | Name1 | PID2 | Name2'
 """, unsafe_allow_html=True)
 
 tab = st.radio("1️⃣ Choose campaign file input method:", ["Upload CSV file", "Paste Google Sheet link"])
